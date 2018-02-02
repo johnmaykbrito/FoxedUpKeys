@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-// This code should be used on Greasemonkey(Firefox extension) or Tempermonkey(Chrome Extension).
+// This code should be used on Greasemonkey (Firefox extension) or Tempermonkey (Chrome Extension).
 // It's clearly a prankCode. Have Fun.
 setTimeout(createDivs, 10000);
 function createDivs() {
