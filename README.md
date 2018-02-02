@@ -6,12 +6,12 @@ This code should be used on Greasemonkey (Firefox extension) or Tempermonkey (Ch
 
 ## Contributor
 
-1. John Lima <johnmaykbrito@gmail.com>
+1. John Lima johnmaykbrito@gmail.com
 
 ## License & Copyright
 
 © John Lima, 2018
 
-'''
-<p>hello</p>
-'''
+```
+Thanks
+```
