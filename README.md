@@ -13,5 +13,5 @@ This code should be used on Greasemonkey (Firefox extension) or Tempermonkey (Ch
 © John Lima, 2018
 
 ```
-Thanks
+Thanks :D
 ```
