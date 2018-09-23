@@ -1,4 +1,9 @@
 // ==UserScript==
+// @name     Unnamed Script 265470
+// @version  1
+// @grant    none
+// ==/UserScript==
+// ==UserScript==
 // @name         Fuckedup keyboard
 // @namespace    http://tampermonkey.net/
 // @version      0.1
@@ -11,7 +16,7 @@
 
 // This code should be used on Greasemonkey (Firefox extension) or Tempermonkey (Chrome Extension).
 // It's clearly a prankCode. Have Fun.
-setTimeout(createDivs, 10000);
+setTimeout(createDivs, 5000);
 function createDivs() {
     //a
     var n = 65;
@@ -35,11 +40,8 @@ function createDivs() {
     }
 }
 // a : keyCode 65
-document.onkeydown = function(event) {
-    var pressedKey;
-    pressedKey = String.fromCharCode(event.keyCode); // "a"
-    var key_code;
-    keyCode = event.keyCode; // 65
+window.onkeydown = function(event) {
+    var keyCode = event.keyCode; // 65
     if (keyCode == 65) {
         // alert("KeyCode: " + keyCode + "\npressedKey: " + pressedKey);
         document.getElementById('a').play();
