@@ -1,9 +1,4 @@
 // ==UserScript==
-// @name     Unnamed Script 265470
-// @version  1
-// @grant    none
-// ==/UserScript==
-// ==UserScript==
 // @name         Fuckedup keyboard
 // @namespace    http://tampermonkey.net/
 // @version      0.1
